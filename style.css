@@ -384,12 +384,26 @@ select,
 
 .photo {
     grid-column: 6/ span 7;
+    position: relative;
 
 }
 
 .photo>img {
     width: 100%;
     height: 100%;
+}
+.save70
+{
+    background-color: #FF5400;
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+    transform: rotate(-25deg);
+    border-radius: 15px;
+    color: #FFF;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    
 }
 
 .bt_s4 {
