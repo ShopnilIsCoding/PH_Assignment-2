@@ -9,10 +9,12 @@
     font-family: 'Mulish', sans-serif;
 
 }
-
+.menu-toggle {
+    display: none;
+}
 
 body {
-    min-width: 992px;
+  
     height: 100vh;
 }
 
