@@ -173,6 +173,10 @@
     justify-content: space-between;
     
 }
+.optional1>p
+{
+    width: 90%;
+}
 
 /* optional 2 */
 .po2_container
@@ -223,9 +227,10 @@
 footer
 {
     margin-top: 3rem;
+    padding: 1rem;
 }
 .container_foot {
-    width: 90%;
+    width: 100%;
 
 }
 .icon_foot {

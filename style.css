@@ -354,6 +354,10 @@ select,
     text-align: center;
     margin-bottom: 2.5rem;
 }
+.optional1>p
+{
+    width: 50%;
+}
 .big_card1 {
     background-image: url('./Images/Group\ 39.png');
     background-repeat: no-repeat;
