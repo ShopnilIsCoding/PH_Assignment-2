@@ -221,11 +221,37 @@
 .newletter {
 
     grid-column: 1/ span 1;
+    padding:10px;
 }
 .photo {
     grid-column: 1/ span 1;
 
 }
+/* unique */
+
+.review_container
+{
+    padding: 5px;
+}
+.review-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 5px;
+    margin: o auto;
+}
+.review-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background: rgba(255, 255, 255, 0.724);
+  backdrop-filter: blur(2.5px);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
 /* footer  */
 footer
 {
@@ -240,4 +266,26 @@ footer
 
     gap: 5%;
 }
+}
+@media screen and (max-width:350px) {
+
+
+    .save70
+    {
+        padding: 0.5rem 1rem;
+        transform: rotate(-25deg) translate(20%, -120%);
+    }
+    .optional1
+    {
+        width: 90%;
+    }
+    .big_card1
+    {
+        height: auto;
+    }
+    .smallcard>button
+    {
+        width: 80%;
+        font-size: 1rem;
+    }
 }
